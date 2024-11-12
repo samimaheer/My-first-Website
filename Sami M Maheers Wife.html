@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love</title>
+    <style>
+        .fade-text {
+            animation: fade 2s infinite;
+        }
+        @keyframes fade {
+            0%, 100% {opacity: 0; }
+            50% {opacity: 1;}
+        }
+        /* Full-screen background */
+        body {
+            background-image: url('youhttps://drive.google.com/file/d/1Gdhk56loz0H-V6ecL4woYGm-_qfS0U6y/view?usp=sharingr-photo.jpg'); /* Replace with your photo URL */
+            background-size: cover;
+            background-position: center;
+            color: rgb(255, 255, 255);
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            background-color: rgba(244, 185, 240, 0.5); /* Dark overlay */
+        }
+
+        /* Heart animation */
+        .heart {
+            color: #ff4b5c;
+            font-size: 150px;
+            animation: glow 1.5s ease-in-out infinite alternate;
+        }
+
+        /* Glowing text effect */
+        .glow-text {
+            font-size: 2em;
+            font-weight: bold;
+            color: #dfffdc;
+            text-shadow: 0 0 5px #ff4b5c, 0 0 15px #ff4b5c, 0 0 25px #ff4b5c;
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+
+        /* Keyframes for heart glow */
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 10px #ff4b5c, 0 0 20px #ff4b5c, 0 0 30px #ff4b5c;
+            }
+            to {
+                text-shadow: 0 0 20px #ff4b5c, 0 0 40px #ff4b5c, 0 0 50px #ff4b5c;
+            }
+        }
+
+        /* Style the message box */
+        .message {
+            max-width: 600px;
+            background: rgba(190, 192, 188, 0.447);
+            border-radius: 20px;
+            padding: 30px;
+            margin-top: 20px;
+            color: rgb(0, 0, 0);
+            font-size: 1.3em;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+            animation: fadeIn 3s ease-out;
+        }
+
+        /* Fade-in animation for the message */
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        /* Fancy cursive font for special messages */
+        .special-message {
+            font-family: 'Brush Script MT', cursive;
+            font-size: 1.5em;
+            color: #2d26fd;
+            text-shadow: 0 0 10px #ffe88e;
+        }
+
+        /* Button Styling */
+        .button {
+            padding: 15px 30px;
+            margin-top: 20px;
+            background-color: #100506;
+            color: white;
+            font-size: 1.2em;
+            font-weight: bold;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        /* Button hover effect */
+        .button:hover {
+            background-color: #ff1a29;
+            transform: scale(1.1);
+        }
+        .coming-love {
+            display: none; /* Initially hidden */
+            font-size: 2em;
+            color: #ff4b5c;
+            background-color: rgba(255, 255, 255, 0.5);
+            padding: 30px;
+            border-radius: 20px;
+            margin-top: 40px;
+            animation: slideUp 2s ease-out forwards; /* Slide up animation */
+        }
+
+        @keyframes slideUp {
+            0% { transform: translateY(100px); opacity: 0; }
+            100% { transform: translateY(0); opacity: 1; }
+        }
+
+
+    </style>
+</head>
+<body>
+    <!-- Heart animation -->
+    <div class="heart">❤️</div>
+    
+    <!-- Glowing title -->
+    <h1 class="glow-text">For the Love of My Life PORSHI</h1>
+    
+    <!-- Sweet message -->
+    <div class="message">
+        <p class="special-message">Hey there, beautiful Porshi! 🌹</p>
+        <p>I just wanted to take a moment to tell you how much you mean to me. You light up my world and make every day so much brighter. Thank you for being the amazing, wonderful person you are. I’m so lucky to have you in my life. ❤️</p>
+        <p>Every second spent with you is my favorite one. I cherish every moment, and I love you more with each passing day. 💖</p>
+        <p>Now I just want to success in life and to do something. But it is not possible without you.</p>
+        <p>So I need you .</p>
+        
+        <p class="special-message">Forever yours, Maheer</p>
+    </div>
+    <div class="message">
+        <p> Love me or not?</p>
+    </div>
+    <div class="love-buttons">
+        <button onclick="loveMe()">Yes 💖</button>
+        <button onclick="notLoveMe()">Not😢</button>
+    </div>
+    <div id="comingLove" class="coming-love">
+        <p>❤️❤️ My Love is Coming for You! ❤️❤️</p>
+    </div>
+>
+    <script>
+        function loveMe() {
+            alert("Yay! I knew you love me! 😘");
+        }
+        
+
+        function notLoveMe() {
+            alert("Oh no! But I'll always love you! ❤️");
+        }
+    </script>
+
+
+    <!-- Romantic button -->
+    <button class="button" onclick="alert('I love you my Xan.Will you be mine?.')">Click here  💖</button>
+</body>
+</html>
